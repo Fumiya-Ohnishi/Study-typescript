@@ -1,7 +1,7 @@
-export {};
+export {}
 
-let name: any = 'Ham';
+let name: any = "Ham"
 
-let length = (<string>name).length;
+let length = (<string>name).length
 
 // length = 'foo';

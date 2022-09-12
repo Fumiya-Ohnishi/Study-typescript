@@ -1,4 +1,4 @@
-export {};
+export {}
 
 namespace Japanese {
   export namespace Tokyo {
@@ -23,11 +23,11 @@ namespace English {
   }
 }
 
-const me = new Japanese.Tokyo.Person('はむさん');
-console.log(me.name);
+const me = new Japanese.Tokyo.Person("はむさん")
+console.log(me.name)
 
-const meOsaka = new Japanese.Osaka.Person('はむやん');
-console.log(meOsaka.name);
+const meOsaka = new Japanese.Osaka.Person("はむやん")
+console.log(meOsaka.name)
 
-const michael = new English.Person('Michael', 'Joseph', 'Jackson');
-console.log(michael);
+const michael = new English.Person("Michael", "Joseph", "Jackson")
+console.log(michael)

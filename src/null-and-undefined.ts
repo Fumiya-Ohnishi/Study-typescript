@@ -1,7 +1,7 @@
-export {};
+export {}
 
-let absence: null = null;
+let absence: null = null
 // absence = 'hello';
 
-let data: undefined = undefined;
+let data: undefined = undefined
 // data = 123;

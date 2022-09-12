@@ -1,17 +1,17 @@
-export {};
+export {}
 
 abstract class Animal {
-  abstract cry(): string;
+  abstract cry(): string
 }
 
 class Lion extends Animal {
   cry() {
-    return 'roar';
+    return "roar"
   }
 }
 
 class Tiger extends Animal {
   cry() {
-    return 'grrrr';
+    return "grrrr"
   }
 }

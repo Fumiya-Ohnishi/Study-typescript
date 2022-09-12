@@ -1,5 +1,5 @@
-export {};
+export {}
 
-let value: number | string = 1;
-value = 'foo';
-value = 100;
+let value: number | string = 1
+value = "foo"
+value = 100

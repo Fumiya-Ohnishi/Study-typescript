@@ -1,4 +1,4 @@
-export {};
+export {}
 
 class Mahotsukai {}
 class Souryo {}
@@ -6,23 +6,23 @@ class Souryo {}
 class Taro extends Mahotsukai {}
 
 interface Kenja {
-  ionazun(): void;
+  ionazun(): void
 }
 
 interface Senshi {
-  kougeki(): void;
+  kougeki(): void
 }
 
 class Jiro implements Kenja, Senshi {
   ionazun(): void {
-    console.log('iozazun');
+    console.log("iozazun")
   }
 
   kougeki(): void {
-    console.log('kougeki');
+    console.log("kougeki")
   }
 }
 
-const jiro = new Jiro();
-jiro.ionazun();
-jiro.kougeki();
+const jiro = new Jiro()
+jiro.ionazun()
+jiro.kougeki()

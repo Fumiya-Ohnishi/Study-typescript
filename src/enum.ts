@@ -1,4 +1,4 @@
-export {};
+export {}
 
 enum Months {
   January = 1,
@@ -12,12 +12,12 @@ enum Months {
   September,
   October,
   November,
-  December
+  December,
 }
 
-console.log(Months.January);
-console.log(Months.February);
-console.log(Months.December);
+console.log(Months.January)
+console.log(Months.February)
+console.log(Months.December)
 
 // const MonthsJs = {
 //   January: 0,
@@ -28,20 +28,20 @@ console.log(Months.December);
 // console.log(MonthsJs.February);
 
 enum COLORS {
-  RED = '#FF0000',
-  WHITE = '#FFFFFF',
-  GREEN = '#008000',
-  BLUE = '#0000FF',
+  RED = "#FF0000",
+  WHITE = "#FFFFFF",
+  GREEN = "#008000",
+  BLUE = "#0000FF",
   //  YELLOW = '#FFFF00',
-  BLACK = '#000000'
+  BLACK = "#000000",
 }
 
-let green = COLORS.GREEN;
-console.log({ green });
+let green = COLORS.GREEN
+console.log({ green })
 
 enum COLORS {
-  YELLOW = '#FFFF00',
-  GRAY = '#808080'
+  YELLOW = "#FFFF00",
+  GRAY = "#808080",
 }
 
-COLORS.YELLOW;
+COLORS.YELLOW

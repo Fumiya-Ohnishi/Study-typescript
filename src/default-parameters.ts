@@ -1,7 +1,7 @@
-export {};
+export {}
 
 const nextYearSalary = (currentSalary: number, rate: number = 1.1) => {
-  return currentSalary * rate;
-};
+  return currentSalary * rate
+}
 
-console.log(nextYearSalary(1000));
+console.log(nextYearSalary(1000))
